@@ -11,7 +11,7 @@ def Calc_sec(x1_, y1_, x2_, y2_, v1x_, v1y_, v2x_, v2y_, sec_):
     a2x_ = g * ((x1_ - x2_) / math.sqrt(dist_)) / dist_ * m1
     a2y_ = g * ((y1_ - y2_) / math.sqrt(dist_)) / dist_ * m1
 
-    a2x_, a2y_ = 0, 0
+    #a2x_, a2y_ = 0, 0
 
     v1x_ += a1x_ * sec_ 
     v1y_ += a1y_ * sec_ 
@@ -38,7 +38,7 @@ def Calc_values(x1, y1, x2, y2, v1x, v1y, v2x, v2y):
     a2x = g * ((x1 - x2) / math.sqrt(dist)) / dist * m1
     a2y = g * ((y1 - y2) / math.sqrt(dist)) / dist * m1
 
-    a2x, a2y = 0, 0
+    #a2x, a2y = 0, 0
 
     v1x += a1x * sec
     v1y += a1y * sec
